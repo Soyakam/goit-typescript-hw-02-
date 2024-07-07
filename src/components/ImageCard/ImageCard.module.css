@@ -1,0 +1,20 @@
+/* ImageCard.module.css */
+
+.image-card {
+  width: 450px;
+  height: 300px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.image-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.image-card:hover img {
+  transform: scale(1.1);
+}
